@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+ html {
+    font-size: 62.5%;
+}
+
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.principal{
+    background-color: gray;
+    display: inline-block;
+    border: 0.2rem red solid;
+}
+#encabezado{
+    font-size: 1.8rem;
+    background-color: pink;
+    display: inline-block;
+    position: relative;
+    left: 32%;
+    top: 4.1rem;
+    padding: 2.8rem;
+    border-radius: 2rem;
+}
+
+#cuerpo{
+    font-size: 1.6rem;
+    background-color: bisque;
+    display: inline-block;
+    border: 0.2rem lawngreen solid;
+    padding: 6rem;
+    margin: 0rem3rem6rem3rem;
+    line-height: calc(1.7rem + 20%);
+    border-radius: 2.6rem;
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+header {
+    background-color: antiquewhite;
+    height: 8vh;
+    font-size: 2rem;
+}
+main{
+    height: 87vh;
+}
+footer{
+    height: 5vh;
+    background-color: brown;
+}
+figure, nav{
+    display: inline-block;
+}
+figure{
+    margin: 1rem;
+}
+
+nav{
+    position: absolute;
+    right: 1.5rem;
+    
+}
+aside, section{
+    display: inline-block;
+    height: 87vh;
+
+}
+aside{
+    width: 20vw;
+    background-color: cadetblue;
+}
+
+aside div{
+    height: 18vh;
+    margin: 3vh;
+    background-color: chocolate;
+}
+section{
+    position: absolute;
+    left: 20vw;
+    width: 87vw;
+    padding: 1rem;
+    background-color: darkgrey;
+}
+
+.facebook, .informacion{
+    display: inline-block;
+    margin: 1rem;
+}
+.informacion{
+    position: absolute;
+    right: 1.5rem;
+}
